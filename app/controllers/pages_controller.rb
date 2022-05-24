@@ -2,4 +2,5 @@
 
 class PagesController < ApplicationController # rubocop:disable Style/Documentation
   def home; end
+  def about; end
 end
