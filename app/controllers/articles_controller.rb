@@ -6,4 +6,8 @@ class ArticlesController < ApplicationController # rubocop:disable Style/Documen
       params[:id]
     )
   end
+
+  def index
+    @articles = Article.all
+  end
 end
